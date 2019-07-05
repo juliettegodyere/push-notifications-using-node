@@ -3,7 +3,7 @@ Push Notification service using NodeJS and Web Push
 
 Just farmilarizing myself with push notifications using Web  Push. For further reading you can check out Traversy Media youtube vedio here https://www.youtube.com/watch?v=HlYFW2zaYQM.
 
-**How to generate VARPID Keys**
+**How to generate VARPID Keys (It is free)**
 
 *COMMAND LINE*
 `npm install web-push`
