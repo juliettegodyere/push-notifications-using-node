@@ -8,8 +8,8 @@ const app = express();
 app.use(express.static(path.join(__dirname, "client")));
 app.use(bodyParser.json());
 
-const publicVapidKey = 'BPEmurNB9Pw9PPAC3SXQmTHuFBfaMPMwIYrL9tFDCf_DIC2WthaqbotSsYdKsz2WR8jCZXzwBTrPG86TIZWRgCg';
-const privateVapidKey = 'y1aFLUnBKHjy9OUs3qoNsdxgkFluexCRCfaQabwavmk';
+const publicVapidKey = PUBLIC_VAPIDKEY;
+const privateVapidKey = PRIVATEVAPIDKEY;
 
 WebPush.setVapidDetails('mailto:test@test.com', publicVapidKey, privateVapidKey);
 
